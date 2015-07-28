@@ -1,0 +1,40 @@
+{
+    "name":        "mcadare/flash-message-handler",
+    "type":        "library",
+    "description": "FlashMessageHandler allow you to manage Flash messages in your application via Triggered events.",
+    "keywords":    [
+        "events",
+        "symfony"
+    ],
+    "homepage":    "https://github.com/mcadare/FlashMessageHandler",
+    "license":     "MIT",
+
+    "authors": [
+        {
+            "name": "Meven",
+            "email": "meven.cadare@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php":                          ">=5.3.3"
+    },
+
+    "suggest": {
+        "mcadare/flash-message-handler-bundle":     "symfony integration"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "MCadare\\FlashMessageHandler\\": ""
+        }
+    },
+
+    "target-dir": "MCadare/FlashMessageHandler",
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
